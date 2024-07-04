@@ -1,0 +1,26 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+.title {
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: inherit;
+    flex-flow: column;
+    font-size: x-large;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: double;
+    
+}
+
+div {
+    border: 1px;
+}
